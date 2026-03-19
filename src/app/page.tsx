@@ -1,7 +1,7 @@
-type Props = {};
+import styles from "./page.module.css";
 
-function Home({}: Props) {
-  return <div>hello world! 😛</div>;
+function Home() {
+  return <main className={styles.main}>hello world! 😛</main>;
 }
 
 export default Home;

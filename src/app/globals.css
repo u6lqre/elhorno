@@ -1,0 +1,26 @@
+:root {
+  --black: #242424;
+  --white: #ffffff;
+  --blue: #00b2ff;
+  --pink: #ff69b8;
+  --green: #00c851;
+  --gray-1: #c0c0c0;
+  --gray-3: #f3f3f3;
+  --gray-4: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+}
+
+body {
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
