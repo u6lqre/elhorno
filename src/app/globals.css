@@ -1,5 +1,5 @@
 :root {
-  --black: #242424;
+  --black: #1a1a1a;
   --white: #ffffff;
   --blue: #00b2ff;
   --pink: #ff69b8;
@@ -18,9 +18,16 @@
 }
 
 body {
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-  width: 100vw;
   display: flex;
   justify-content: center;
+  width: 100vw;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+button {
+  font-weight: inherit;
 }
