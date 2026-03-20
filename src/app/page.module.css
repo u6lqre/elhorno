@@ -1,5 +1,9 @@
 .main {
-  max-width: 520px;
+  max-width: fit-content;
   width: 100%;
   padding: 64px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }

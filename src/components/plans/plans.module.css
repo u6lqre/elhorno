@@ -1,0 +1,75 @@
+.plans {
+  width: 100%;
+  text-align: center;
+}
+
+.cards_container {
+  margin-top: 12px;
+  display: flex;
+  gap: 20px;
+  width: fit-content;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+  width: 300px;
+  height: fit-content;
+  padding: 20px;
+  background-color: var(--gray-4);
+  border: var(--gray-3);
+  border-radius: 20px;
+}
+.label {
+  color: var(--white);
+  background-color: var(--accent);
+  padding: 0 4px;
+  margin-bottom: 4px;
+  width: fit-content;
+}
+.timeline span:first-of-type {
+  font-size: 28px;
+  margin-right: 4px;
+}
+.description {
+  color: var(--gray-1);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+li::marker {
+  color: var(--accent);
+}
+
+.list_item {
+  position: relative;
+  padding-left: 14px;
+}
+.list_item::after {
+  content: "";
+  width: 6px;
+  height: 6px;
+  background-color: var(--accent);
+  position: absolute;
+  left: 0;
+  top: 5.5px;
+  border-radius: 100%;
+}
+
+.cta {
+  color: var(--accent);
+  text-underline-offset: 2px;
+  transition: all 0.2s ease;
+}
+
+.cta:hover {
+  opacity: 0.8;
+}
