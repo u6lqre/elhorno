@@ -5,33 +5,32 @@ const socialFont = localFont({
   src: "../../assets/fonts/ABCSocialExtended-Bold.otf",
 });
 
-export type CardConfig = {
-  label: string;
-  timeline: string;
-  description: string;
-  options?: string[];
-  color: string;
-};
+const items = [
+  "Montamos tu web desde cero",
+  "Diseño totalmente personalizado",
+  "Adaptada a móvil y ordenador",
+  "Carga rápida y buen funcionamiento",
+  "Convierte usuarios en clientes",
+  "Preparada para aparecer en Google",
+  "Publicación en internet incluida",
+];
 
-function Card({ label, timeline, description, options, color }: CardConfig) {
-  const accent = `var(--${color})`;
-
+function Card() {
   return (
-    <div
-      className={styles.card}
-      style={{ "--accent": accent } as React.CSSProperties}
-    >
+    <div className={styles.card}>
       <div className={socialFont.className}>
-        <p className={styles.label}>{label}</p>
+        <p className={styles.label}>Construcción de páginas web</p>
         <div className={styles.timeline}>
-          <span>{timeline}</span>
+          <span>4</span>
           <span>SEMANAS</span>
         </div>
       </div>
-      <p className={styles.description}>{description}</p>
-      {options && (
+      <p className={styles.description}>
+        Creamos tu web completa, lista para conseguir resultados.
+      </p>
+      {items && (
         <ul className={styles.list}>
-          {options.map((item, index) => (
+          {items.map((item, index) => (
             <li className={styles.list_item} key={index}>
               {item}
             </li>

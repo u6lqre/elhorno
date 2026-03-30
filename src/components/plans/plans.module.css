@@ -1,14 +1,10 @@
 .plans {
   width: 100%;
-  text-align: center;
-}
-
-.cards_container {
-  margin-top: 12px;
   display: flex;
-  gap: 20px;
-  width: fit-content;
+  flex-direction: column;
+  gap: 12px;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
@@ -16,25 +12,29 @@
   text-align: start;
   flex-direction: column;
   align-items: start;
-  gap: 16px;
-  width: 300px;
-  height: fit-content;
+  gap: 12px;
+  width: 320px;
   padding: 20px;
   background-color: var(--gray-4);
   border: var(--gray-3);
   border-radius: 20px;
 }
+
 .label {
   color: var(--white);
-  background-color: var(--accent);
+  background-color: var(--pink);
   padding: 0 4px;
-  margin-bottom: 4px;
+  font-size: 16px;
+  margin-bottom: 8px;
   width: fit-content;
 }
+
 .timeline span:first-of-type {
   font-size: 28px;
   margin-right: 4px;
+  line-height: 24px;
 }
+
 .description {
   color: var(--gray-1);
 }
@@ -45,10 +45,6 @@
   flex-direction: column;
   gap: 6px;
 }
-li::marker {
-  color: var(--accent);
-}
-
 .list_item {
   position: relative;
   padding-left: 14px;
@@ -57,7 +53,7 @@ li::marker {
   content: "";
   width: 6px;
   height: 6px;
-  background-color: var(--accent);
+  background-color: var(--pink);
   position: absolute;
   left: 0;
   top: 5.5px;
@@ -65,11 +61,20 @@ li::marker {
 }
 
 .cta {
-  color: var(--accent);
+  color: var(--pink);
   text-underline-offset: 2px;
   transition: all 0.2s ease;
 }
-
 .cta:hover {
   opacity: 0.8;
+}
+
+.custom_idea_cta {
+  text-align: center;
+}
+.custom_idea_cta a {
+  margin-top: 4px;
+  color: var(--blue);
+  display: block;
+  text-decoration: none;
 }
