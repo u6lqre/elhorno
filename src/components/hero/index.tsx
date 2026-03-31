@@ -18,11 +18,10 @@ function Hero({}) {
         los cocine
       </h1>
       <p>
-        Somos un estudio de software centrado en crear productos digitales con
-        especial cuidado por el detalle. Construimos experiencias rápidas, bien
-        diseñadas y optimizadas para ayudar a que tu negocio crezca online.
+        Creamos webs rápidas, optimizadas y con especial cuidado por el detalle
+        para convertir visitas en clientes desde el primer día.
       </p>
-      <button className={styles.cta}>Agenda una cita</button>
+      <button className={styles.cta}>Hablemos de tu proyecto</button>
     </div>
   );
 }

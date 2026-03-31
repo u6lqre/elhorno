@@ -6,12 +6,11 @@ const socialFont = localFont({
 });
 
 const items = [
-  "Montamos tu web desde cero",
-  "Diseño totalmente personalizado",
-  "Adaptada a móvil y ordenador",
-  "Carga rápida y buen funcionamiento",
   "Convierte usuarios en clientes",
+  "Carga rápida y buen funcionamiento",
+  "Adaptada a móvil y ordenador",
   "Preparada para aparecer en Google",
+  "Diseño totalmente personalizado",
   "Publicación en internet incluida",
 ];
 
@@ -19,14 +18,14 @@ function Card() {
   return (
     <div className={styles.card}>
       <div className={socialFont.className}>
-        <p className={styles.label}>Construcción de páginas web</p>
+        <p className={styles.label}>Webs diseñadas para vender</p>
         <div className={styles.timeline}>
           <span>4</span>
           <span>SEMANAS</span>
         </div>
       </div>
       <p className={styles.description}>
-        Creamos tu web completa, lista para conseguir resultados.
+        Creamos tu web desde cero, lista para conseguir resultados.
       </p>
       {items && (
         <ul className={styles.list}>

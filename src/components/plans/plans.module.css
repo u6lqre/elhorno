@@ -71,6 +71,7 @@
 
 .custom_idea_cta {
   text-align: center;
+  color: var(--gray-1);
 }
 .custom_idea_cta a {
   margin-top: 4px;

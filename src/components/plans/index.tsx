@@ -7,7 +7,7 @@ function Plans() {
       <p>Todo lo que necesitas para tu producto digital.</p>
       <Card />
       <div className={styles.custom_idea_cta}>
-        <span>¿No encuentras lo que buscas?</span>
+        <span>¿Necesitas algo más que una web?</span>
         <a href="#">Cuéntanos tu idea →</a>
       </div>
     </section>
