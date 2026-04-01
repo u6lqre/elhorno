@@ -8,7 +8,9 @@ function Plans() {
       <Card />
       <div className={styles.custom_idea_cta}>
         <span>¿Necesitas algo más que una web?</span>
-        <a href="#">Cuéntanos tu idea →</a>
+        <a href="https://cal.eu/horno.studio" target="_blank">
+          Cuéntanos tu idea →
+        </a>
       </div>
     </section>
   );

@@ -37,7 +37,11 @@ function Card() {
         </ul>
       )}
 
-      <a href="#" className={styles.cta}>
+      <a
+        href="https://cal.eu/horno.studio"
+        target="_blank"
+        className={styles.cta}
+      >
         Solicitar información
       </a>
     </div>

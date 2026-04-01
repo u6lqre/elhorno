@@ -21,7 +21,14 @@ function Hero({}) {
         Creamos webs rápidas, optimizadas y con especial cuidado por el detalle
         para convertir visitas en clientes desde el primer día.
       </p>
-      <button className={styles.cta}>Hablemos de tu proyecto</button>
+      <a
+        href="https://cal.eu/horno.studio"
+        target="_blank"
+        className={styles.cta}
+      >
+        Hablemos de tu proyecto
+      </a>
+      {/* <button className={styles.cta}>Hablemos de tu proyecto</button> */}
     </div>
   );
 }
